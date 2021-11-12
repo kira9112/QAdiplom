@@ -4,7 +4,9 @@
 
 2.Открыть проект в IntelliJ IDEA.
 
-3.Для подключения к базе данных MySQL использовать :
+3.В терминале введите команду docker-compose up -d.
+
+4.Для подключения к базе данных MySQL использовать :
 
 Database-New-Data Sourse-MySQL
 
@@ -14,9 +16,7 @@ Database-New-Data Sourse-PostgreSQL
 
 Параметры для подключения хранятся в файле docker-compose.yml.
 
-3.В терминале введите команду docker-compose up -d.
-
-4.В терминале введите команду java -jar artifacts/aqa-shop.jar .
+5.В терминале введите команду java -jar artifacts/aqa-shop.jar .
 Приложение запускается на порту 8080, по умолчанию используется БД MySQL. Убедитесь в готовности приложения по адресу : http://localhost:8080.
 
-5. В терминале введите команду для запуска тестов: ./gradlew clean test.
+6.В терминале введите команду для запуска тестов: ./gradlew clean test.
